@@ -1,0 +1,27 @@
+:root {
+  --font-main: "Font-Main";
+  --font-action: "Font-Action";
+  --sl-content-width: 50rem;
+  --sl-text-5xl: 3.5rem;
+}
+
+@font-face {
+  font-family: "Font-Main";
+  src: url("../fonts/FranklinGothicURW-Boo.woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Font-Main";
+  src: url("../fonts/FranklinGothicURW-Med.woff");
+  font-weight: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Font-Action";
+  src: url("../fonts/murizabasic-medium-webfont.woff");
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-main);
+}
