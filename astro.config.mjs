@@ -44,6 +44,20 @@ export default defineConfig({
           },
         },
         {
+          tag: "meta",
+          attrs: {
+            property: "og:logo",
+            content: "https://tractstack.org/logo.png",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:type",
+            content: "website",
+          },
+        },
+        {
           tag: "script",
           attrs: {
             src: `https://www.googletagmanager.com/gtag/js?id=G-ZCLW23EDJR`,
