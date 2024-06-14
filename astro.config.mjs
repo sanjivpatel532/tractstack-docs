@@ -22,6 +22,28 @@ export default defineConfig({
       customCss: ["./src/styles/custom.css", "./src/styles/tailwind.css"],
       head: [
         {
+          tag: "meta",
+          attrs: {
+            property: "og:title",
+            content: "Tract Stack | Build recipes + docs",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:description",
+            content:
+              "the SEO-friendly builder for content-driven websites | conversion rate optimization made easy for YouTubers, evangelists, and influencers",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image",
+            content: "https://tractstack.org/og-tractstack-docs.png",
+          },
+        },
+        {
           tag: "script",
           attrs: {
             src: `https://www.googletagmanager.com/gtag/js?id=G-ZCLW23EDJR`,
