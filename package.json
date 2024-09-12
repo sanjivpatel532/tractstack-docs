@@ -15,6 +15,8 @@
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource/nunito": "^5.0.17",
     "@fontsource/outfit": "^5.0.12",
+    "@nanostores/persistent": "^0.10.1",
+    "@nanostores/react": "^0.7.3",
     "astro": "^4.3.5",
     "astro-feelback": "^0.3.4",
     "nanostores": "^0.10.3",
